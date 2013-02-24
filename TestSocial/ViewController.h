@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Social/Social.h>
 
 @interface ViewController : UIViewController
+- (IBAction)clicked:(id)sender;
+@property (retain, nonatomic) IBOutlet UITabBar *tabbar;
 
 @end
